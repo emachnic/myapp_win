@@ -24,6 +24,7 @@ gem 'jquery-rails'
 
 platform :ruby do
   gem 'gruff' '0.3.6'
+  gem 'mysql2'
 end
 
 # To use ActiveModel has_secure_password
