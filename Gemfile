@@ -21,10 +21,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-platform :ruby do
-  gem 'gruff' '0.3.6'
+group :production do
   gem 'mysql2'
+  gem 'gruff'
+  gem 'rmagick', '2.12'
 end
 
 # To use ActiveModel has_secure_password
