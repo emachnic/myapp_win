@@ -1,0 +1,9 @@
+--- 
+cursor_positions: 
+  - :path: Gemfile
+    :cursor_offset: 50
+    :timestamp: 2012-03-21 11:31:07.209000 -04:00
+  - :path: config/routes.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-02 08:17:49.965000 -05:00
+files_to_retain: 0
