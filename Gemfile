@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.2'
+gem 'bundler', '~> 1.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -24,7 +25,7 @@ gem 'jquery-rails'
 group :production do
   gem 'mysql2'
   gem 'gruff'
-  gem 'rmagick', '2.12'
+  gem 'rmagick', '2.12.2'
 end
 
 # To use ActiveModel has_secure_password
