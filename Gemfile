@@ -28,6 +28,7 @@ group :production do
   gem 'mysql2'
   gem 'gruff'
   gem 'rmagick', '2.12.2'
+  gem 'newrelic_rpm', '~> 3.3.5'
 end
 
 # To use ActiveModel has_secure_password
